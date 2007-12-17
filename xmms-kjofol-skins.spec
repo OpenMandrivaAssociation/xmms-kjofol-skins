@@ -16,7 +16,6 @@ Patch2: xmms-kj-64bit-fixes.patch
 License: GPL
 Group: Sound
 URL: http://www.dgs.monash.edu.au/~timf/xmms/
-BuildRoot: %{_tmppath}/%{name}-buildroot
 Requires: xmms >= 1.2.0 unzip
 BuildRequires: gtk+-devel libxmms-devel libpng-devel
 
