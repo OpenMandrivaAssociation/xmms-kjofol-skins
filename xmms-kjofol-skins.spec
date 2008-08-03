@@ -2,7 +2,7 @@
 %define pluginname kint_xmms
 %define version 1.2.0
 %define plugversion 0.95
-%define release %mkrel 10
+%define release %mkrel 11
 
 Name: %{name}
 Summary: XMMS - Vis plugin to get kjofol skins + some kjofol skins
