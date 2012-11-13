@@ -1,0 +1,13 @@
+--- xmms-kj/makefile.gc	Tue Mar 21 12:31:57 2000
++++ xmms-kj/makefile	Tue Mar 21 12:33:20 2000
+@@ -36,7 +36,9 @@
+ vislib:
+ 	make VFLAGS=-DXMMS_VIS=1 VLDFLAGS=-shared
+ 	mv kj libkjofol.so
+-	cp libkjofol.so $(xmmsvislib)
++
++install-vislib:
++	cp libkjofol.so $(LIBDIR)
+ 
+ install:
+ 	make clean
